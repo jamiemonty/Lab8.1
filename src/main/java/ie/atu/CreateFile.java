@@ -14,7 +14,7 @@ public class CreateFile {
            if (myFile.createNewFile()) {
                System.out.println("File created successfully at " + myFile.getAbsolutePath());
            } else {
-               System.out.println("File already exists at " + myFile.getAbsolutePath());
+               System.out.println("File already exists at: " + myFile.getAbsolutePath());
            }
        }catch (IOException e){
            System.out.println("An error occurred while creating the file.");
